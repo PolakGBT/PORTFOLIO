@@ -1,5 +1,4 @@
 <?php
- header("Access-Control-Allow-Origin:localhost/Projet/JS/main.js");
  header("Access-Control-Allow-Origin: ../JS/main.js");
 
 use PHPMailer\PHPMailer\PHPMailer;
