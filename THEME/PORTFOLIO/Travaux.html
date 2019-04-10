@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<html>
+
+ <head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="CSS\bulma.css">
+   <link href="CSS\style.css" rel="stylesheet" media="all" type="text/css">
+   <link href="CSS\style-mobile.css" rel="stylesheet" media="all" type="text/css">
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+   <title>
+     MON PORTFOLIO
+   </title>
+ </head>
+
+
+ <body>
+   <!--Header-->
+  <div>
+  <!--Header-SAUF MOBILE-->
+   <div class="hero is-hidden-mobile">
+      <header class="header">
+          <nav class="header-menu">
+            <!--POUR tablet-->
+                  <div class="header-logo is-hidden-desktop is-hidden-mobile">
+                    <img class="resize-logo" src="Image\LOGO-petit-diff.png"/>
+                  </div>
+              <div class="menu1">
+                <div class="men1">
+                  <a href="Index.html">Accueil</a>
+                </div>
+                <div class="men1">
+                    <a href="Contact.html">Me contacter</a>
+                </div>
+              </div>
+              <div class="header-logo is-hidden-touch">
+                <img src="Image\fin.png"/>
+              </div>
+              <div class="menu1">
+                <div class="men1">
+                  <a href="Travaux.html">Mes travaux</a>
+                </div>
+                <div class="men1">
+                  <a href="Propos.html">A propos</a>
+                </div>
+              </div>
+          </nav>
+      </header>
+   </div>
+
+     <!--Header-MOBILE-->
+          <header class="header-mobile is-hidden-tablet">
+                      <div class="header-logo">
+                        <img class="resize-logo" src="Image\LOGO-petit-diff.png"/>
+                      </div>
+                      <div class="icon-mobile">
+                         <button id="bouton-menu" style="border: 0; background: transparent; display:block">
+                           <img id="bouton-menu" class="resize-icon" src="Image\MENU.png"/>
+                          </button> 
+                          <button id="bouton-menu2" style="border: 0; background: transparent; display:none">
+                              <img id="bouton-menu2" class="resize-icon" src="Image\MENU.png"/>
+                          </button> 
+                      </div>
+          </header>
+
+         <nav id="menu-mobile" name="menu-mobile" class="menu-mobile">
+           <div class="menu marge">
+             <a href="Index.html">Accueil</a>
+            </div>
+          <div class="menu">
+              <a href="Contact.html">Me contacter</a>
+          </div>
+          <div class="menu">
+              <a href="Travaux.html">Mes travaux</a>
+          </div>
+          <div class="menu">
+              <a href="Propos.html">A propos</a>
+          </div>
+          
+         </nav>
+  </div>
+
+   <!--BANNER-->
+      <div class="banner">
+        <div class="banner-content">
+          <h1 class="t1">Mes réalisations de site web</h1>
+          <button id="decou" class="button is-large envo" style="margin-top:50px;">
+                Découvrir
+            </button>
+        </div>
+      </div>
+      <!--ANCRE-->
+      <div class="ancre"  id="ancre-propos">
+
+      </div>
+
+
+   <!--CHOIX DES THEMES-->
+     <div class="container page">
+       <div class="text">
+        <div class="text-content">
+          <h1 class="title is-1 text">Mes réalisations de site web</h1>
+          <p>Je vous présente mon portfolio conçu par mes soins avec le frimeworks Bulma.</p>
+          <br>
+
+          <!--PREMIER THEME-->
+          <div class="columns is-gapless">
+            <div class="carde is-half">
+                <div class="carde-img" id="PORTFOLIO">
+                   <img src="Image\CARD\MON PORTFOLIO.png" alt="">
+                 <div class="carde-hov">
+                   <div class="hov">
+                   </div>
+                   <p class="carde-ouv">OUVRIR</p>
+                </div>
+                </div>
+                <p>Mon Portfolio</p>
+            </div>
+
+            <!--DEUXIEME THEME-->
+            <div class="carde is-half">
+                <div class="carde-img">
+                    <img src="Image\CARD\MON PORTFOLIO.png" alt="">
+                    <div class="carde-hov">
+                        <div class="hov">
+                        </div>
+                        <p class="carde-ouv">OUVRIR</p>
+                     </div>
+                </div>
+                <p>Mon Portfolio2</p>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+     <script src="JS\JQuery.js"></script>
+     <script src="JS\main.js"></script>
+
+ </body>
+</html>
